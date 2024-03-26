@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container flex">
+        <h1>Calculator Made BY ME</h1>
+        <div class="display">
+            <input type="text" placeholder="0" id="result">
+        </div>
+        <div class="rows">
+            <button class="buttons gray" onclick="allclear()">AC</button>
+            <button class="buttons gray" onclick="del()">DEL</button>
+            <button class="buttons gray"onclick="input('%')">%</button>
+            <button class="buttons gray"onclick="input('/')">/</button>
+        </div>
+        <div class="rows">
+            <button class="buttons"onclick="input('7')">7</button>
+            <button class="buttons" onclick="input('8')">8</button>
+            <button class="buttons" onclick="input('9')">9</button>
+            <button class="buttons gray" onclick="input('*')">*</button>
+        </div>
+        <div class="rows">
+            <button class="buttons"onclick="input('4')">4</button>
+            <button class="buttons"onclick="input('5')">5</button>
+            <button class="buttons"onclick="input('6')">6</button>
+            <button class="buttons gray"onclick="input('-')">-</button>
+        </div>
+        <div class="rows">
+            <button class="buttons"onclick="input('1')">1</button>
+            <button class="buttons"onclick="input('2')">2</button>
+            <button class="buttons"onclick="input('3')">3</button>
+            <button class="buttons gray"onclick="input('+')">+</button>
+        </div>
+        <div class="rows">
+            <button class="buttons"onclick="input('0')">0</button>
+            <button class="buttons"onclick="input('.')">.</button>
+            <button class="buttons"onclick="input('00')">00</button>
+            <button class="buttons blue" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
